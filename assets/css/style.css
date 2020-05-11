@@ -349,45 +349,45 @@ button:focus,a:focus{
     #main_page #banner_image .carousel-caption h1{
         font-size: 1.5rem;
     }
-
-    #jumbotronadvert {  
-        background: url(../images/image1.png) no-repeat top center;     
-    }
-
-    #jumbotronadvert .display-4{
+	
+	#jumbotronadvert .display-4{
         font-size: 2.5rem !important;
     }
 
+    #jumbotronadvert {  
+        background: url(../images/image1.png) no-repeat center 100px;     
+    }
+    
     #jumbotronappsweb {  
-        background: url(../images/apps_web_banner.png) no-repeat top center;     
+        background: url(../images/apps_web_banner.png) no-repeat center 100px;     
     }
 
     #jumbotroncreative {  
-        background: url(../images/creative_banner.png) no-repeat top center;     
+        background: url(../images/creative_banner.png) no-repeat center 150px;     
     }
 
     #jumbotrondigital {  
-        background: url(../images/digital_banner.png) no-repeat top center;     
+        background: url(../images/digital_banner.png) no-repeat center 100px;     
     }
 
     #jumbotrondigitalseo{
-        background: url(../images/seo_banner.png) no-repeat top center;
+        background: url(../images/seo_banner.png) no-repeat center 100px;
     }
 
     #jumbotrondigitalsem{
-        background: url(../images/sem_banner.png) no-repeat top center;
+        background: url(../images/sem_banner.png) no-repeat center 100px;
     }
 
     #jumbotrondigitalsmm{
-        background: url(../images/smm_banner.png) no-repeat top right;
+        background: url(../images/smm_banner.png) no-repeat center 100px;
     }
 
     #jumbotrondigitalemailmarket{
-        background: url(../images/email-marketing-banner.png) no-repeat top center;
+        background: url(../images/email-marketing-banner.png) no-repeat center 100px;
     }
 
     #jumbotronerp {  
-        background: url(../images/erp.png) no-repeat top center;     
+        background: url(../images/erp.png) no-repeat center 100px;     
     }   
     .navbar{
         background-color: #fff
@@ -723,5 +723,25 @@ button:focus,a:focus{
     }
 	#inner_pages .jumbotron .banner_text {
 		height: auto;
+	}
+	#inner_pages .jumbotron .display-4 {
+    	font-size: 3rem;
+	}
+	.container {
+		max-width: 650px;
+	}
+	body {
+    	padding-top: 1.5rem;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+	#inner_pages .jumbotron .banner_text {
+		height: 0px;
+	}
+	body {
+    	padding-top: 1.5rem;
+	}
+	#inner_pages .jumbotron .display-4 {
+    	font-size: 3rem;
 	}
 }
